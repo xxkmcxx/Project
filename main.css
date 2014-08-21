@@ -1,0 +1,40 @@
+body{
+	background-image: url(images/blackBackground.jpg);
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-size: cover;
+
+	margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 250px;
+    margin-left: 250px;
+}
+h1{
+	width: 1000px;
+	margin: 10px auto;
+	padding: 10px 15px 10px 15px; 
+}
+.menu li{
+	display:inline-block;
+
+}
+a:active{
+	background-color: red;
+}
+
+.main_content{
+	width: 1000px;
+	margin: 10px auto;
+	padding: 10px 15px 10px 15px; 
+	background:#ffffff;
+	border:1px solid #f0f0f0;
+}
+
+.menu{
+	background-image: url(images/menubackground.jpg);
+	width: 1000px;
+	margin: 10px auto;
+	padding: 10px 15px 10px 15px; 
+
+}
+
