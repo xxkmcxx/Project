@@ -1,5 +1,5 @@
 body{
-	background-image: url(images/droidbackground.jpg);
+	background-image: url(images/bluebackground.jpg);
 	background-repeat: repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -14,11 +14,30 @@ h1{
 	margin: 10px auto;
 	padding: 10px 15px 10px 15px; 
 }
-.menu li{
-	display:inline-block;
-
+ .menu ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position fixed;
 }
-a:active{
+.menu li{
+	list-style-type:none;
+	float:left;
+	font-size:18px;
+	padding-left:65px;
+	padding-right: 61px;
+	border: 1px solid #252525;
+	
+}
+.menu a:link
+{
+	text-decoration: none;
+}
+.menu a:visited{
+	color: black;
+}
+li:active{
 	background-color: red;
 }
 
@@ -26,15 +45,17 @@ a:active{
 	width: 1000px;
 	margin: 10px auto;
 	padding: 10px 15px 10px 15px; 
-	background:#ffffff;
+	background-color:#D5D5D5;
 	border:1px solid #f0f0f0;
+	box-shadow: 5px 5px 5px #252525;
 }
 
 .menu{
-	background-image: url(images/menubackground.jpg);
+	background-image: url(images/orangebackground.jpg);
 	width: 1000px;
 	margin: 10px auto;
-	padding: 10px 15px 10px 15px; 
+	padding: 10px 15px 10px 15px;
+	box-shadow: 5px 5px 5px #252525;
 
 }
 
