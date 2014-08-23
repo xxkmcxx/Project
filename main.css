@@ -1,9 +1,9 @@
 body{
-	background-image: url(images/bluebackground.jpg);
+	/*background-image: url(images/droidbackground.jpg);
 	background-repeat: repeat;
 	background-attachment: fixed;
-	background-size: cover;
-
+	background-size: cover;*/
+	background-color: #222222;
 	margin-top: 100px;
     margin-bottom: 100px;
     margin-right: 250px;
@@ -16,42 +16,80 @@ h1{
 }
  .menu ul{
     list-style-type:none;
-    margin: 0;
-    padding: 0;
+    /*margin: 0;
+    padding: 0;*/
     overflow: hidden;
-    position fixed;
+
 }
-.menu li{
+
+
+.menu li {
 	list-style-type:none;
-	float:left;
+	display: inline-block;
 	font-size:18px;
-	padding-left:65px;
-	padding-right: 61px;
+	padding-left:50px;
+	padding-right: 60px;
 	border: 1px solid #252525;
-	
+	color:white;
 }
-.menu a:link
-{
+#page1{
+	background-color:#D11250;
+}
+
+#page2{
+ 	background-color:#DB5800;
+}
+
+#page3{
+	background-color:#006899;
+}
+
+#page4{
+	background-color:#008F68;
+}
+
+#page5{
+	background-color:#9933FF; 
+}
+#page1:hover{
+	background-color:#7D0B30;
+}
+
+#page2:hover{
+ 	background-color:#6E2C00;
+}
+
+#page3:hover{
+	background-color:#00344C;
+}
+
+#page4:hover{
+	background-color:#004834;
+}
+
+#page5:hover{
+	background-color:#3D1466; 
+}
+.menu a:link{
 	text-decoration: none;
 }
 .menu a:visited{
 	color: black;
 }
-li:active{
-	background-color: red;
-}
+
 
 .main_content{
 	width: 1000px;
 	margin: 10px auto;
 	padding: 10px 15px 10px 15px; 
-	background-color:#D5D5D5;
+	background-color:#101010;
 	border:1px solid #f0f0f0;
 	box-shadow: 5px 5px 5px #252525;
+	color:#666666;
 }
 
 .menu{
-	background-image: url(images/orangebackground.jpg);
+	background-color:#101010;
 	width: 1000px;
 	margin: 10px auto;
 	padding: 10px 15px 10px 15px;
