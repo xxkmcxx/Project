@@ -10,15 +10,14 @@ h1{
 	margin: 10px auto;
 	padding: 10px 15px 10px 15px; 
 }
- .menu ul {
+
+ul{
     list-style-type:none;
     /*margin: 0;
     padding: 0;*/
     overflow: hidden;
 
 }
-
-
 .menu li{
 	list-style-type:none;
 	display: inline-block;
@@ -47,31 +46,17 @@ h1{
 #page5{
 	background-color:#9933FF; 
 }
-#page1:hover{
-	background-color:#7D0B30;
-}
 
-#page2:hover{
- 	background-color:#6E2C00;
-}
-
-#page3:hover{
-	background-color:#00344C;
-}
-
-#page4:hover{
-	background-color:#004834;
-}
-
-#page5:hover{
-	background-color:#3D1466; 
-}
 .menu a:link{
 	text-decoration: none;
 }
 .menu a:visited{
 	color: black;
 }
+.menu li:hover{
+	opacity: .3;
+}
+
 
 
 .main_content{
@@ -81,9 +66,7 @@ h1{
 	background-color:#101010;
 	box-shadow: 5px 5px 5px #141414;
 	color:#666666;
-}
-p.main_content{
-	background-color:red;
+	overflow: hidden;
 }
 
 .menu{
@@ -94,9 +77,37 @@ p.main_content{
 	box-shadow: 5px 5px 5px #141414;
 }
 
-.pic{
+.footer{
 	text-align:center;
+	background-color:#101010;
+	width: 1000px;
+	margin: 10px auto;
+	padding: 10px 15px 10px 15px;
+	box-shadow: 5px 5px 5px #141414;
+	color:#666666;
 }
-mailto{
+.main_content a{
 	color:white;
+}
+.links img{
+	width:300px;
+}
+.links img:hover{
+	opacity: .7;
+
+}
+
+.leftdiv{
+	width:490px;
+	float:left;
+	overflow: hidden;
+}
+
+.rightdiv{
+	width:490px;
+	float:right;
+	overflow: hidden;
+}
+.pic{
+	text-align: center;
 }
