@@ -1,8 +1,4 @@
 body{
-	/*background-image: url(images/droidbackground.jpg);
-	background-repeat: repeat;
-	background-attachment: fixed;
-	background-size: cover;*/
 	background-color: #222222;
 	margin-top: 100px;
     margin-bottom: 100px;
@@ -14,7 +10,7 @@ h1{
 	margin: 10px auto;
 	padding: 10px 15px 10px 15px; 
 }
- .menu ul{
+ .menu ul {
     list-style-type:none;
     /*margin: 0;
     padding: 0;*/
@@ -23,7 +19,7 @@ h1{
 }
 
 
-.menu li {
+.menu li{
 	list-style-type:none;
 	display: inline-block;
 	font-size:18px;
@@ -86,6 +82,9 @@ h1{
 	box-shadow: 5px 5px 5px #141414;
 	color:#666666;
 }
+p.main_content{
+	background-color:red;
+}
 
 .menu{
 	background-color:#101010;
@@ -98,5 +97,4 @@ h1{
 .pic{
 	text-align:center;	
 }
-
 
